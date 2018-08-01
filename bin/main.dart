@@ -1,7 +1,7 @@
-import 'package:time_tracker_api/time_tracker_api.dart';
+import 'package:time_tracker/time_tracker.dart';
 
 Future main() async {
-  var app = new Application<TimeTrackerApiSink>()
+  var app = new Application<TimeTrackerSink>()
       ..configuration.configurationFilePath = "config.yaml"
       ..configuration.port = 8000;
 
